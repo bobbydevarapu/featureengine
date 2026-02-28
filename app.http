@@ -1,0 +1,21 @@
+###
+POST http://localhost:8081/admin/features?key=new_dashboard&description=NewUI
+###
+PUT http://localhost:8081/admin/features/new_dashboard/enable
+###
+PUT http://localhost:8081/admin/features/new_dashboard/disable
+###
+PUT http://localhost:8081/admin/features/new_dashboard/rollout?percentage=30
+###
+GET http://localhost:8081/evaluate?userId=101&feature=new_dashboard
+###
+GET http://localhost:8081/evaluate?userId=2&feature=new_dashboard
+###
+GET http://localhost:8081/evaluate?userId=3&feature=new_dashboard
+###
+GET http://localhost:8081/evaluate?userId=4&feature=new_dashboard
+###
+GET http://localhost:8081/evaluate?userId=4&feature=new_dashboard
+###
+PUT http://localhost:8081/features/new_dashboard/disable
+###
