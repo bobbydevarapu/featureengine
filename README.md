@@ -132,11 +132,3 @@ Production-runnable JAR build verified.
 
 Caching, controlled rollout, and persistence layers fully operational.
 
-This version:
-
-- Explains intent
-- Shows architectural understanding
-- Mentions deterministic hashing (important)
-- Sounds engineering-focused
-- Not bloated
-- Not childish
